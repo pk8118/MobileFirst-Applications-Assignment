@@ -1,0 +1,39 @@
+.main-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: auto;
+}
+.joke-list{
+    list-style: none;
+    margin: 15px;
+}
+.joke-card{
+    border: 2px solid #bbbbbb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #bbb;
+}
+.joke-info{
+    display: flex;
+    justify-content: space-between;
+}
+.refresh-btn-card{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    
+}
+.refresh-btn{
+    border: #bbb 2px solid;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.refresh-btn :hover{
+    background-color: #bbb;
+    color: #fff;
+    cursor: pointer;
+}
+
